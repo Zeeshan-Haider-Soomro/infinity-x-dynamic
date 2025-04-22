@@ -35,6 +35,9 @@ const Footer = () => {
           <a href="#contact" className="hover:text-purple-300 font-semibold">
             Contact Us
           </a>
+          <a href="#contact" className="hover:text-purple-300 font-semibold">
+            Clients 
+          </a>
         </div>
 
         {/* Social Media Links */}
