@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import logo from '../assets/logo.png'; // rename your uploaded logo to logo.png and place in /assets
+import logo from 'src\assets\Logo.png'; // rename your uploaded logo to logo.png and place in /assets
 
 
 const Footer = () => {
