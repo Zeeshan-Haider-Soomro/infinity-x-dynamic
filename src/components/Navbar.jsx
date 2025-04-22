@@ -69,7 +69,6 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
-          <img src={logo} alt="Logo" className="h-8" />
           <button onClick={() => setSidebarOpen(false)}>
             <X size={24} className="text-purple-700" />
           </button>
