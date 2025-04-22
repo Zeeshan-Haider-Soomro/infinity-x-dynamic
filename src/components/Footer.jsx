@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import logo from 'src\assets\Logo.png'; // rename your uploaded logo to logo.png and place in /assets
 
 
 const Footer = () => {
@@ -9,11 +8,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto text-center space-y-6">
         {/* Logo Section */}
         <div className="flex justify-center">
-          <img
+          {/* <img
             src={logo} // Replace with the actual path to your logo image
             alt="Infinity X Dynamics Logo"
             className="h-12"
-          />
+          /> */}
         </div>
 
         {/* Navigation Links */}
