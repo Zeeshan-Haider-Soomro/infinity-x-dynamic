@@ -8,11 +8,6 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto text-center space-y-6">
         {/* Logo Section */}
         <div className="flex justify-center">
-          {/* <img
-            src={logo} // Replace with the actual path to your logo image
-            alt="Infinity X Dynamics Logo"
-            className="h-12"
-          /> */}
         </div>
 
         {/* Navigation Links */}
