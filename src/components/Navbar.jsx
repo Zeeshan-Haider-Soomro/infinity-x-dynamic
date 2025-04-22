@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router";
 import { Menu, X } from "lucide-react";
-// import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -20,10 +19,7 @@ const Navbar = () => {
           {/* Logo */}
           <div>
             <Link to="/" className="flex items-center gap-2">
-              {/* <img src={logo} alt="IXD Logo" className="h-10 w-auto" /> */}
-              {/* <span className="text-xl font-bold text-[#2398FF] tracking-tight hidden sm:block">
-                Infinity X Dynamics
-              </span> */}
+            <p>asd</p>
             </Link>
           </div>
 
